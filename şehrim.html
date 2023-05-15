@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SAKARYA ÜNİVERSİTESİ PROJE</title>
+<style>
+.body
+{
+	background-color:white;
+
+}
+
+img 
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.GölgeliKalıp
+{
+    background-color: white;
+    padding: 30px 30px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
+}
+</style>
+<script src=“https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js”>
+</script>
+
+<script><!--Basıldığında yavaşça aşağıya kayıyor-->
+window.smoothScroll = function (target) {
+    var scrollContainer = target;
+    do {
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+
+    var targetY = 0;
+    do {
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+
+    scroll = function (c, a, b, i) {
+        i++;
+        if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function () {
+            scroll(c, a, b, i);
+        }, 20);
+    }
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+}
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Sakarya Üniversi</title>
+	<link rel="shortcut icon" href="C:\Users\PC\Desktop\logo_32iS_icon.bmp" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+</head>
+<body>
+
+<body class="body">
+<html lang="tr">
+<head>
+<title>SAKARYA ÜNİVERSİTESİ PROJE</title>
+<style>
+img 
+{
+    width: 100%;
+	border-radius: 10px;
+}
+
+.GölgeliKalıp
+{
+    background-color: white;
+    padding: 30px 30px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);
+}
+</style>
+
+</head>
+<body>
+<!--En Tepedeki Butonların Başlangıcı-->
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="text-align:center ; background-color:#F7F2F0;" >
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" onclick="window.location='https://www.instagram.com/bybaltik/'" style="cursor:pointer;"><b>Bedirhan Baltık</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="anasayfa.html">ANASAYFA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="özgeçmiş.html">ÖZGEÇMİŞ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="şehrim.html">ŞEHRİM</a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link" href="takımım.html">TAKIMIMIZ</a>
+		</li>
+		<li class="nav-item">
+        <a class="nav-link" href="login.html">LOGİN</a>
+		</li>
+	    <li class="nav-item">
+        <a class="nav-link" href="iletişim.html">İLETİŞİM</a> 
+		</li>
+    </ul>
+  </div>
+</nav>
+
+<!--En Tepedeki Butonların Ufalmasının Başlangıcı-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!--En Tepedeki Butonların Başlangıcı-->
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/galata.webp" onclick="smoothScroll(document.getElementById('Resim0'))"style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="images/yerebatansarnıcı.jpg" onclick="smoothScroll(document.getElementById('Resim1'))"style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="images/kız kulesi.webp" onclick="smoothScroll(document.getElementById('Resim2'))"style="width:100%;">
+      </div>
+	  
+	  <div class="item">
+        <img src="images/miniaturk.jpg" onclick="smoothScroll(document.getElementById('Resim3'))" style="width:100%;">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+ <div class="container" >
+	<div style="background-color:#F7F7F7; margin-top:50px;">
+		<div class=" col-lg-4 ">
+			<div class="GölgeliKalıp text-center">
+				<p ><a style="color:black">İstanbul'da Gezilmesi Gereken 10 Yer</a></p>
+				<ul>TOPKAPI SARAYI</ul> 	<ul>BEYLERBEYİ SARAYI</ul>
+				<ul>KIZ KULESİ</ul>			<ul>EYÜP SULTAN CAMİİ</ul>
+				<ul>GALATA KULESİ</ul>		<ul>MİNİATÜRK</ul>
+				<ul>YEREBATAN SARNICI</ul>	<ul>SULTANAHMET MEYDANI</ul>
+				<ul>FENER RUM ERKEK LİSESİ</ul>	<ul>Pierre Loti Tepesi</ul>
+			</div>
+		</div>
+		<div class=" col-lg-4 ">
+			<div class="GölgeliKalıp text-center">
+				<p><a style="color:black">İstanbul'un Tarih Bilgileri</a> </p>
+				<p>İstanbul, yerleşim tarihi 300 bin, kentsel tarihi 3 bin yıl önceye kadar uzanan bir şehirdir. 1204-1261 arasındaki Haçlı istilası haricinde 330`dan 1923`e kadar olan dönemde; Roma İmparatorluğu, Bizans İmparatorluğu ve Osmanlı İmparatorluğu olmak üzere üç değişik imparatorluğa başkentlik yaparak, 1.553 sene boyunca batıda Tuna Nehri`nden doğuda Pers İmparatorluğu`na kadar olan bölgenin tartışmasız tek hakimi olmuştur. </p>
+			</div>
+		</div>
+		<div class=" col-lg-4 ">
+			<div class="GölgeliKalıp text-center">
+				<p><a style="color:black">İstanbul'da Nüfus Bilgiler</a></p>
+				<p>İstanbul 2023 nüfusu, tahmini verilere göre 16.067.031.
+          Bu nüfus verisi, eski yıllarıdaki nüfus artış hızlarına göre tahmini hesaplanmıştır. İstanbul 2023 resmi nüfus bilgileri 2024 yılının başında açıklanacaktır.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+    <!-- Galata Bilgileri Başlangıç -->
+	<div class="col-md-6 col-lg-3" id="Resim0" style="margin-top:50px;">
+    <div class="GölgeliKalıp  text-center">
+		<a target=”_blank” href="https://muze.gov.tr/muze-detay?SectionId=GLT04&DistId=MRK"><img src="images/galata.webp"></img></a><br>
+		<p style="margin-top:30px;">Dünyanın en eski kuleleri arasında sayılan ve İstanbul’un sembollerinden biri olan Galata Kulesi, 2013 yılında UNESCO Dünya Mirası Geçici Listesi’ne dahil edilmiştir. İstanbul’un siluetini oluşturan en önemli yapılardan biri olan Galata Kulesi, uzun dönem yangın gözetleme kulesi olarak kullanıldı ve Galata Yangın Kulesi olarak adlandırıldı.
+      On yedinci yüzyılda Hezarfen Ahmet Çelebi, uçuş denemeleri yaptığı Galata Kulesinden, tahtadan yapılan kanatları sırtına bağlayarak gerçekleştirdiği uçuşunu Üsküdar’da tamamladıktan sonra kuleye olan ilginin giderek arttığı bilinmektedir.Galata Kulesi ilk olarak Bizans İmparatoru Justinianos tarafından MS 507 - 508 yılında inşa edilmiştir. Günümüzdeki kuleyi 1348 - 49 yılında Cenevizliler yeniden inşa etmiştir. Kule 1445 - 46 yılları arasında yükseltilmiştir. 1500'lü yıllarda depremden zarar görerek Mimar Murad bin Hayreddin tarafından onarılmıştır. III. Selim döneminde kule onarıldıktan sonra, kulenin üst katına bir cumba eklenir. 1831'de kule bir yangın daha geçirir, II. Mahmut kulenin üzerine iki kat daha çıkar ve külah biçiminde olan ünlü dam örtüsüyle kulenin tepesi kapatılır. 1967'de onarım gören kule, 2020 yılında tekrar restore edilir.</p>
+	</div>
+</div>
+<br>
+	<!--Ortaköy Camii Başlangıç -->
+	<div class="col-md-6 col-lg-3" id="Resim1" style="margin-top:50px; ">
+        <div class="GölgeliKalıp text-center">
+			<a target=”_blank” href="https://yerebatan.com/"><img src="images/yerebatansarnıcı.jpg"></img></a><br>
+			<p style="margin-top:30px;">
+        532 yılında İmparator Justinianus tarafından inşa ettirilen Yerebatan Sarnıcı Stoa Bazilikası'nın altında yer aldığı için Bazilika Sarnıcı olarak da bilinir. Sarnıç, uzunluğu 140 metre genişliği 70 metre dikdörtgen biçimde bir alanı kapsayan dev bir yapıdır. 52 basamaklı taş bir merdivenle inilen sarnıcın içerisinde her biri 9 metre yüksekliğinde 336 sütun bulunmaktadır. Birbirine 4.80 metre aralıklarla dikilen bu sütunlar, her sırada 28 tane 12 sıra meydana getirirler.Suyun içerisinde yükselen bu sütunlar uçsuz bucaksız bir ormanı hatırlatmakta ve ziyaretçiyi sarnıca girer girmez etkilemektedir. Sarnıcın tavan ağırlığı haç biçiminde tonozlar yuvarlak, kemerler vasıtasıyla sütunlara aktarılmıştır, çoğunluğu daha eski yapılardan toplandığı anlaşılan ve çeşitli mermer cinslerinden granitten yontulmuş sütunların büyük bir kısmı tek parçadan, bir kısmı da üst üste iki parçadan oluşmaktadır. Bu sütunların başlıkları yer yer farklı özellikler taşır. Bunlardan 98 adedi Corinth üslubu yansıtırken bir bölümünde Dor üslubunu yansıtmaktadır. Sarnıcın tuğladan örülmüş, 4.80 metre kalınlığındaki duvarları ve tuğla döşeli zemini Horasan harcından kalın bir tabakayla sıvanarak su geçmez hale getirilmiştir. Toplam 9 bin 800 metrekare bir alanı bulunan bu sarnıç yaklaşık 100 bin ton su depolama kapasitesine sahiptir.
+			</p>
+		</div>
+	</div>
+<br>
+    <!-- Kız Kulesi Başlangıç -->
+    <div class="col-md-6 col-lg-3" id="Resim2" style="margin-top:50px;">
+        <div class="GölgeliKalıp text-center">
+			<a target=”_blank” href="https://kizkulesi.gov.tr/" ><img src="images/kız kulesi.webp"></img></a><br>
+            <p style="margin-top:30px;">Kız Kulesi’nin tarihi milattan önceki zamanlara kadar uzanıyor. Tarihi kanıtlara baktığımızda kuleden ilk olarak MÖ 410 yılında söz edildiğini görüyoruz. Atinalı Alkibiades tarafından inşa edilen kule, Boğaz’dan geçen gemileri kontrol etmek ve vergi almak amacı ile kullanılıyormuş. İstanbul, Roma hakimiyetine geçtikten sonra Bizans İmparatoru Manuel Komnenos (I. Manuil) yapıyı taşlarla güçlendirip tam bir kule olarak tasarlatmış ve bir savunma binası haline getirmiş. Osmanlı zamanında bir kez daha restore edilen kule, mehter takımının gösterilerine sahne olmuş. Tarihi boyunca birçok kez harap olup tekrar restore edilen bu kule, günümüz itibarıyla Üsküdar’da Salacak açıklarında gidilebilecek bir kafe, müze ve restoran olarak hizmet veriyor.İlk efsaneye göre Bizans krallarından birinin kızı olmuş ve kız hakkında bir kehanet ortaya atılmış. Prenses, 18 yaşında bir yılan tarafından sokularak ölecekmiş. Bunu duyan kral, denizin ortasındaki adada bulunan kuleyi restore ettirerek prensesin yaşayabileceği bir alana dönüştürmüş. Prenses 18 yaşına gelince hizmetçilerin getirdiği bir üzüm sepetinin ya da prensese aşık olan genç bir subayın getirdiği çiçek sepetinin içine saklanan yılan adaya ulaşmış ve prensesi sokarak öldürmüş.</p>
+        </div>
+    </div>
+<br>
+    <!-- Gülhane Bilgileri Başlangıç -->
+    <div class="col-md-6 col-lg-3" id="Resim3" style="margin-top:50px;">
+        <div class="GölgeliKalıp  text-center">
+			<a target=”_blank” href="https://www.miniaturk.com.tr/"><img src="images/miniaturk.jpg"></img></a><br>
+			<p style="margin-top:30px;">Türkiye’nin dünyaya açılan penceresi İstanbul’da Miniatürk Müzesi projesi ile hem tarih ve kültür şehri İstanbul hem medeniyetlerin vatanı Türkiye’ nin bütün zenginlikleri yerli yabancı turistlerin ilgisine sunulmaktadır. Yurtdışındaki örneklerin hemen tamamında olduğu gibi Miniatürk’ te de 1/25 ölçek kullanılmış; böylece maketi yapılan bina ve nesneler ile dünyadaki benzer minyatür kentler arasında ziyaretçilerin kıyaslama yapabilmesi mümkün kılınmıştır.Eserlerin seçiminde ilk kriter olarak; Anadolu ve çevresinde hüküm sürmüş, izler bırakmış medeniyetler Miniatürk’ te yer alması şeklinde olup; Antik Çağ’dan Bizans’a, Selçuklu’ dan Osmanlı’ya, 3000 yıllık yaşanmışlığın izleri Haliç kıyısına taşınmıştır. Diğer bir yaklaşım ise;  bugün çeşitli sebeplerle ayakta olmayan eserlere de burada yer vermek şeklinde olup;
+        Efes Meryem Ana Kilisesi gibi, ya da dünyanın antik çağdaki yedi harikası arasında sayılan Halikarnas Mozolesi ve Artemis Tapınağı gibi eserler maketleri ile yeniden Miniatürk’te hayat bulmuştur.
+        
+        Haliçlin bu kıyısında Galata Kulesi’nin geçmiş zaman fısıltıları Ayasofya’ dan işitilir, Safranbolu Evleri Antalya Yivli Minare ‘den ezan dinler. Mevlana Türbesi’nin semazenleri Selimiye‘nin avlusunda dinlenir. Atatürk’ün evinden Mostar Köprüsü seyredilir. Adana Taş Köprü’den geçenler saatlerini İzmir Saat Kulesi’nden ayarlar. Burada aslının aynısı tarihi eserlerin minyatür maketleri; ziyaretçilerine binyılların tarihini, farklı kültürleri, çağlar açmış çağlar kapamış uygarlıkları sunmaktadır.
+        </p>
+		</div>
+    </div>
+</body>
+</html> 
